@@ -1,6 +1,6 @@
 # TROA AIO Updater
 
-Release information for the TROA AIO Updater Torch plugin.
+Release information for the TROA AIO Updater Torch plugin. The current approved package is TROA-AIO-Updater.zip (v0.1.1).
 
 The updater lets server owners opt in to individual TROA plugin release downloads using its local configuration. It checks approved GitHub Release assets at startup and stages updates for the next Torch restart.
 
