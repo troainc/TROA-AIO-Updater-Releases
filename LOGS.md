@@ -11,3 +11,7 @@
 ## 2026-09-23 - v0.1.19
 
 - Synchronized public-safe release documentation for final updater behavior.
+
+## 2026-09-23 - documentation
+
+- Expanded public-safe README with detailed owner instructions.
