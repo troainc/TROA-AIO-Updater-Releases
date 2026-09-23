@@ -17,3 +17,7 @@
 ## Documentation - 2026-09-23
 
 - Expanded public-safe operator installation and configuration guide.
+
+## Documentation refresh - 2026-09-23
+
+- Reworked the public README and operator checklist with installation, per-plugin ownership controls, log interpretation, restart behavior, and troubleshooting.
