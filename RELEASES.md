@@ -9,3 +9,7 @@
 
 - Initial private distribution package for Torch.
 - Public repository contains release information only; packages are published through the private project release channel.
+
+## v0.1.19
+
+- Final operator logging and automatic post-download restart notice release.

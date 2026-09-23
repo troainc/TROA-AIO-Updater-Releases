@@ -9,3 +9,7 @@ Implementation source, server configuration, and distribution binaries are maint
 ## Installation
 
 Obtain the approved release package from the project owner, place it in Torch's `Plugins` folder, and restart Torch. Configure the generated `TROA AIO Updater.cfg` before enabling any managed plugin.
+
+## Current release behavior
+
+The updater checks owner-enabled TROA packages as Torch completes plugin loading. Its detailed console log identifies each package check and highlights when downloaded packages require a restart. The release package and implementation remain private.

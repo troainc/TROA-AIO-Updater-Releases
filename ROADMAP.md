@@ -11,3 +11,7 @@
 - Better diagnostics for update status and rollback guidance.
 
 Implementation details, source code, configuration, and distribution infrastructure remain private.
+
+## Completed
+
+- Owner-visible detailed package checks and restart notice behavior.
