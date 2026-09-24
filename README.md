@@ -2,13 +2,13 @@
 
 TROA AIO Updater is the owner-facing update manager for approved TROA Torch plugins. It gives a server owner one place to decide which TROA packages may be checked and downloaded before a Space Engineers server session begins.
 
-**Current documented release:** v0.1.19
+**Current documented release:** v0.1.20
 **Torch package filename:** `TROA-AIO-Updater.zip`
 
 ## What it does
 
 - Checks the latest release package for each TROA plugin the owner has enabled.
-- Uses the release asset's own filename, so the downloaded package is identifiable in Torch's `Plugins` folder.
+- Keeps a stable package filename and records the approved release identity beside it, preventing repeat downloads when an asset filename changes.
 - Leaves a plugin alone when its download switch is off.
 - Recognizes an already-installed current package and logs that no download was needed.
 - Stages downloaded packages before the game server session starts.
@@ -79,7 +79,8 @@ If you need to hold a version, turn that package's download switch off before st
 | No updater messages | Confirm `TROA-AIO-Updater.zip` is in Torch's `Plugins` folder and the updater is enabled. |
 | A package was not checked | Confirm its individual download switch is on and restart Torch. |
 | A package is already current | No action is needed; the installed package matches the approved release. |
-| Restart notice appears | Downloads were staged. Allow Torch's countdown and restart to finish. |
+| Restart notice appears once | Downloads were staged. Allow Torch's countdown and restart to finish. |
+| The same package restarts Torch repeatedly | Install v0.1.20; it records the downloaded release identity and stops once that asset is already installed. |
 | A package does not load after restart | Keep the log, verify the package ZIP remains in the `Plugins` folder, and contact TROA support. |
 
 ## Support and links

@@ -1,3 +1,6 @@
+## 2026-09-23 - v0.1.20
+
+- Documented the repeat-download/restart-loop fix and the operator recovery path.
 # Work log
 
 ## 2026-09-23 — v0.1.1

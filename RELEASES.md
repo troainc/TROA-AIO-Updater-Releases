@@ -1,3 +1,8 @@
+## v0.1.20
+
+- Restart-loop repair: a managed package is identified by its recorded release asset rather than by a changing GitHub filename.
+- If a legacy package has no marker, it is verified once; an identical package does not trigger another restart.
+
 # Releases
 
 ## v0.1.1

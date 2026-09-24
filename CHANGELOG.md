@@ -1,3 +1,8 @@
+## 0.1.20 - 2026-09-23
+
+- Fixed repeat downloads and automatic restart loops when a stable installed package filename differs from its GitHub release asset name.
+- Added durable release identity tracking and retained previous-package rollback copies.
+
 # Changelog
 
 ## 0.1.1 - 2026-09-23
