@@ -26,3 +26,7 @@
 ## 2026-09-27 - v0.1.21
 
 - Updated public release records for the expanded managed-plugin catalog and consolidated state tracking.
+
+## 2026-09-27 - v0.1.22
+
+- Updated public operator guidance for readable state output and physical rollback-copy cleanup.

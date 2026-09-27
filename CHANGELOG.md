@@ -35,3 +35,7 @@
 ## Documentation correction - 2026-09-27
 
 - Rebuilt the public README for v0.1.21 with the complete managed-plugin catalog, central state-file behavior, install steps, log interpretation, and troubleshooting.
+
+## 0.1.22 - 2026-09-27
+
+- Documented removal of physical .zip.previous files and readable central state JSON with prior-package metadata.

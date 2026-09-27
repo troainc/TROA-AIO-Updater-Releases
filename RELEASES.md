@@ -23,3 +23,7 @@
 ## v0.1.19
 
 - Final operator logging and automatic post-download restart notice release.
+
+## v0.1.22
+
+- Removes updater-created .zip.previous files and retains prior-release details in the single readable state file.
