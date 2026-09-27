@@ -18,9 +18,9 @@ The updater manages these plugin families:
 
 | Plugin | Purpose |
 | --- | --- |
-| Cleaner+ | Cleanup, grid management, and maintenance |
+| Overseer+ | Core administration and server operations |`n| Cleaner+ | Cleanup, grid management, and maintenance |
 | Monitor+ | Monitoring, alerts, and server visibility |
-| Hangar+ | Grid storage and hangar management |
+| Hangar+ | Grid storage and hangar management |`n| GridVault+ | Grid preservation, backup, and recovery |
 | Econ+ | Economy systems and expansion |
 | Profiler+ | Performance profiling and diagnostics |
 | NPC+ | Coming soon |
@@ -30,7 +30,7 @@ The updater manages these plugin families:
 1. Obtain the approved `TROA-AIO-Updater.zip` distribution from TROA.
 2. Copy the ZIP into Torch's `Plugins` folder. Do not extract it.
 3. Start Torch once. The updater creates its owner configuration on first run.
-4. Stop Torch and set the plugin download switches you want to allow.
+4. Stop Torch and set the Overseer+, Cleaner+, Monitor+, Hangar+, GridVault+, Econ+, and Profiler+ download switches you want to allow.
 5. Start Torch again and review the updater messages in the Torch log.
 
 The update manager itself must be enabled, and startup checks must be enabled, for automatic startup checks to run.
@@ -78,7 +78,7 @@ If you need to hold a version, turn that package's download switch off before st
 | --- | --- |
 | No updater messages | Confirm `TROA-AIO-Updater.zip` is in Torch's `Plugins` folder and the updater is enabled. |
 | A package was not checked | Confirm its individual download switch is on and restart Torch. |
-| A package is already current | No action is needed; the installed package matches the approved release. |
+| A package is already current | No action is needed; the centralized updater state confirms the installed package matches the approved release. |
 | Restart notice appears once | Downloads were staged. Allow Torch's countdown and restart to finish. |
 | The same package restarts Torch repeatedly | Install v0.1.20; it records the downloaded release identity and stops once that asset is already installed. |
 | A package does not load after restart | Keep the log, verify the package ZIP remains in the `Plugins` folder, and contact TROA support. |

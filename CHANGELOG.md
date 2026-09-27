@@ -26,3 +26,8 @@
 ## Documentation refresh - 2026-09-23
 
 - Reworked the public README and operator checklist with installation, per-plugin ownership controls, log interpretation, restart behavior, and troubleshooting.
+
+## 0.1.21 - 2026-09-27
+
+- Added public owner documentation for Overseer+ and GridVault+ package controls.
+- Documented the consolidated Plugins-folder updater state file.

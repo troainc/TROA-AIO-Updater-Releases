@@ -22,3 +22,7 @@
 ## 2026-09-23 - public documentation refresh
 
 - Rewrote the public-facing owner guide and HOWTO checklist; no private source, packages, configuration, or infrastructure was published.
+
+## 2026-09-27 - v0.1.21
+
+- Updated public release records for the expanded managed-plugin catalog and consolidated state tracking.

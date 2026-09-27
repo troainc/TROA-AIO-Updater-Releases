@@ -9,8 +9,8 @@
 ## Configure ownership choices
 
 1. Turn the updater and startup checks on.
-2. Turn on only the individual TROA plugin downloads you authorize.
-3. Keep a plugin's switch off to preserve its existing package and skip its download check.
+2. Turn on only the individual TROA plugin downloads you authorize: Overseer+, Cleaner+, Monitor+, Hangar+, GridVault+, Econ+, or Profiler+.
+3. Keep a plugin's switch off to preserve its existing package and skip its download check. The updater records confirmed downloads in one central state file, not an extra file for every package.
 4. Keep automatic restart on if you want newly staged packages to load before the server session starts.
 
 ## Verify an update run

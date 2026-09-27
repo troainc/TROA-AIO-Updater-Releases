@@ -1,3 +1,8 @@
+## v0.1.21
+
+- Adds owner-controlled Overseer+ and GridVault+ package checks.
+- Consolidates package confirmation into one updater state file instead of per-package release marker files.
+
 ## v0.1.20
 
 - Restart-loop repair: a managed package is identified by its recorded release asset rather than by a changing GitHub filename.
