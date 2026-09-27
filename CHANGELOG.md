@@ -31,3 +31,7 @@
 
 - Added public owner documentation for Overseer+ and GridVault+ package controls.
 - Documented the consolidated Plugins-folder updater state file.
+
+## Documentation correction - 2026-09-27
+
+- Rebuilt the public README for v0.1.21 with the complete managed-plugin catalog, central state-file behavior, install steps, log interpretation, and troubleshooting.
