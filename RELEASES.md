@@ -27,3 +27,7 @@
 ## v0.1.22
 
 - Removes updater-created .zip.previous files and retains prior-release details in the single readable state file.
+
+## v0.1.23
+
+- Managed plugin ZIPs now retain the exact versioned GitHub Release asset name in Torch's Plugins folder.

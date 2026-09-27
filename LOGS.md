@@ -30,3 +30,7 @@
 ## 2026-09-27 - v0.1.22
 
 - Updated public operator guidance for readable state output and physical rollback-copy cleanup.
+
+## 2026-09-27 - v0.1.23
+
+- Updated public owner guidance for exact versioned asset-name installs.

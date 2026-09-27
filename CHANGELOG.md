@@ -39,3 +39,7 @@
 ## 0.1.22 - 2026-09-27
 
 - Documented removal of physical .zip.previous files and readable central state JSON with prior-package metadata.
+
+## 0.1.23 - 2026-09-27
+
+- Documented exact GitHub asset-name installation and automatic removal of superseded managed ZIPs.

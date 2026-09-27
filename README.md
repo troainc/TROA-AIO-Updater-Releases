@@ -2,13 +2,13 @@
 
 TROA AIO Updater is the server-owner update manager for approved TROA Torch plugins. It checks only the plugin families you authorize and stages approved package updates before the Space Engineers server session starts.
 
-**Current documented release:** v0.1.22
+**Current documented release:** v0.1.23
 **Torch package filename:** `TROA-AIO-Updater.zip`
 
 ## What it does
 
 - Checks the latest approved package for each enabled TROA plugin.
-- Keeps the package ZIP in Torch's `Plugins` folder and identifies the release asset in the Torch log.
+- Places the package in Torch's `Plugins` folder using the exact GitHub Release asset filename, including its version text.`n- Removes superseded ZIPs for the same managed plugin before restart, preventing duplicate plugin loading.
 - Uses one `TROA-AIO-Updater.state.json` file in the `Plugins` folder to record confirmed package versions.
 - Does not create a separate `.troa-aio-release` file beside each package ZIP.
 - Leaves a package untouched when its owner switch is off.
