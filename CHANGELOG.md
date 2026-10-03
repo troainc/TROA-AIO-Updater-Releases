@@ -43,3 +43,7 @@
 ## 0.1.23 - 2026-09-27
 
 - Documented exact GitHub asset-name installation and automatic removal of superseded managed ZIPs.
+
+## Documentation update - 2026-10-03
+
+- Added a documentation landing page for owner setup, package controls, safe operation, and troubleshooting.

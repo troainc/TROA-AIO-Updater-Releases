@@ -101,3 +101,6 @@ This file prevents unnecessary repeat downloads and restart loops. It is rewritt
 ## Public repository boundary
 
 This repository contains public release information and server-owner documentation only. Source code, compiled packages, private configuration, release infrastructure, and server-specific information remain private.
+## Documentation
+
+See [`docs/README.md`](docs/README.md) for the owner setup path and links to update controls, safe operation, and troubleshooting.
