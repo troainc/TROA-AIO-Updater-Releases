@@ -104,4 +104,3 @@ This repository contains public release information and server-owner documentati
 ## Documentation
 
 See [`docs/README.md`](docs/README.md) for the owner setup path and links to update controls, safe operation, and troubleshooting.
-
