@@ -8,3 +8,8 @@ TROA AIO Updater is a Torch-side package manager for approved TROA plugins. Serv
 - Read the [changelog](../CHANGELOG.md) and current release assets before upgrading.
 
 Keep a known-good server backup and enable only the plugin updates you intend to accept. An owner switch set to Off prevents the updater from replacing that plugin package.
+
+## Start here
+
+Read the [detailed user and operator guide](USER_GUIDE.md) for supported setup, feature workflows, safe operation, and troubleshooting.
+

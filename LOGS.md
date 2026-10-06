@@ -34,3 +34,13 @@
 ## 2026-09-27 - v0.1.23
 
 - Updated public owner guidance for exact versioned asset-name installs.
+
+## 2026-10-06 — Documentation cleanup
+
+- Fixed README line-break artifacts and clarified v0.1.23 remains the public documented release until an authorized package update.
+- No source, configuration, or binary package added to the public repository.
+
+## 2026-10-06 public user guide
+
+Added docs/USER_GUIDE.md; connected it to the documentation index and README; recorded setup, feature use, operational safeguards, and public-release limitations. Updated the changelog and repository context/instructions.
+

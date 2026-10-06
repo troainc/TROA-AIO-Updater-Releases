@@ -1,3 +1,9 @@
+## Public operator documentation expansion - 2026-10-06
+
+- Added a detailed user guide under docs/USER_GUIDE.md and linked it from the documentation index and root README.
+- Documented current setup, feature ownership, command/config references, operational workflows, safety boundaries, and version/status limitations using the published behavior.
+- Added repository-local context, contribution instructions, and a dated documentation log entry. No private source or credentials are included.
+
 # Changelog
 
 ## 0.1.20 - 2026-09-23
@@ -47,3 +53,9 @@
 ## Documentation update - 2026-10-03
 
 - Added a documentation landing page for owner setup, package controls, safe operation, and troubleshooting.
+
+## Documentation cleanup - 2026-10-06
+
+- Fixed literal line-break artifacts in the public updater README.
+- Updated roadmap items to reflect SHA-256 verification now implemented in the private candidate; public release documentation remains on v0.1.23 until an authorized package release.
+
