@@ -1,3 +1,5 @@
+> **Bifrost Plugin Panel:** In a compatible Admin Overseer release, open **Plugin systems → Open workspace** for TROA AIO Updater. The [connection guide](docs/BIFROST-PLUGIN-PANEL.md) covers webserver setup, IPv4/domain access, accounts, permissions, and troubleshooting. Metrics and controls depend on what this installed plugin build actually exposes.
+
 # TROA AIO Updater
 
 TROA AIO Updater is the server-owner update manager for approved TROA Torch plugins. It checks only the plugin families you authorize and stages approved package updates before the Space Engineers server session starts.
